@@ -1,0 +1,10 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - prefer_const_constructors
+    - avoid_print
+    - always_declare_return_types
+    - prefer_final_locals
+    - cancel_subscriptions
+    - close_sinks
