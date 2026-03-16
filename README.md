@@ -1,4 +1,4 @@
-# dartnotify
+# dart_fsnotify
 
 Cross-platform filesystem notifications for Dart — inspired by
 [fsnotify/fsnotify](https://github.com/fsnotify/fsnotify).
@@ -25,7 +25,7 @@ Add to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  dartnotify: ^0.1.0
+  dart_fsnotify: ^0.1.0
 ```
 
 Then run:
@@ -39,7 +39,7 @@ dart pub get
 ## Quickstart
 
 ```dart
-import 'package:dartnotify/dartnotify.dart';
+import 'package:dart_fsnotify/dart_fsnotify.dart';
 
 void main() async {
   final watcher = await Watcher.create();
