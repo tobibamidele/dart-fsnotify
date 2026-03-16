@@ -1,7 +1,9 @@
 name: dart_fsnotify
-description: A sample command-line application.
-version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+description: >
+  Cross-platform filesystem watcher for Dart. Watch files and directories
+  for create, write, remove, rename, and chmod events — inspired by fsnotify.
+version: 0.1.0
+repository: https://github.com/tobibamidele/dart-fsnotify
 
 environment:
   sdk: ^3.10.4
